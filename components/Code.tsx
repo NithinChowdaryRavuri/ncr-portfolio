@@ -78,8 +78,8 @@ export async function Code() {
           </TableBody>
         </Table>
         <p className="mt-2 text-muted-foreground lg:text-lg">
-          Note: The above values are fetched from a project I built to compute
-          and store those values, to fetch in real time.
+          Note: The above values are fetched from a API I built to compute and
+          store them for real-time retrieval.
         </p>
       </Card>
 
