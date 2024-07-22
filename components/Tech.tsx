@@ -100,7 +100,9 @@ const Tech = () => {
               <h1 className="text-2xl font-medium pt-3">{item.name}</h1>
               <p className="text-muted-foreground">{item.username}</p>
               <Button className="mt-4 bg-blue-600" size="sm" asChild>
-                <a href={item.link}>Follow</a>
+                <a href={item.link} target="_blank">
+                  Follow
+                </a>
               </Button>
             </Card>
           ))}
