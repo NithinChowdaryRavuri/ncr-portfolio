@@ -85,7 +85,7 @@ const Projects = () => {
       </p>
       <div className="py-12 grid md:grid-cols-2 gap-4 sm:gap-6 md:gap-8 lg:gap-12 grid-cols-1">
         {data.map((item) => (
-          <div className="w-full rounded-2xl relative">
+          <div className="w-full rounded-2xl relative" key={item.title}>
             <div className="overflow-hidden flex justify-center">
               <Carousel className="w-full max-w-xs">
                 <CarouselContent>
@@ -107,12 +107,7 @@ const Projects = () => {
                 </div>
               </Carousel>
             </div>
-            <a
-              href={item.link}
-              key={item.title}
-              className="group block mx-4"
-              target="_blank"
-            >
+            <a href={item.link} className="group block mx-4" target="_blank">
               <div className="mt-4">
                 <h2 className="font-medium text-lg hover:underline">
                   {item.title}
