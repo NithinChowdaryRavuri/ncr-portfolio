@@ -17,7 +17,7 @@ const Hero = () => {
         </div>
         <div className="flex flex-col items-center mt-12 text-center">
           <a
-            href="/Nithin_Chowdary_Resume.pdf"
+            href="https://www.linkedin.com/in/nithinchowdaryravuri"
             target="_blank"
             className="relative inline-block text-lg group"
           >
