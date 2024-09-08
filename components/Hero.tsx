@@ -15,7 +15,7 @@ const Hero = () => {
         <div className="mx-auto mt-5 text-gray-500 md:mt-12 md:max-w-lg md:text-center lg:text-lg">
           Coding today for a better tomorrow.
         </div>
-        <div className="flex flex-col items-center mt-12 text-center">
+        {/* <div className="flex flex-col items-center mt-12 text-center">
           <a
             href="https://www.linkedin.com/in/nithinchowdaryravuri"
             target="_blank"
@@ -31,7 +31,7 @@ const Hero = () => {
               data-rounded="rounded-lg"
             ></span>
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

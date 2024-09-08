@@ -10,6 +10,28 @@ import { Card, CardContent } from "./ui/card";
 
 const data = [
   {
+    link: "https://easy-lld.netlify.app",
+    title: "Easy LLD",
+    description:
+      "Easy LLD is a platform to learn Low Level Design through an interactive and engaging quiz.",
+    tags: [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Spring Boot",
+      "PostgreSQL",
+      "Axios",
+      "Docker",
+    ],
+    image: [
+      "/lld/1.png",
+      "/lld/2.png",
+      "/lld/3.png",
+      "/lld/4.png",
+      "/lld/5.png",
+    ],
+  },
+  {
     link: "https://ncr-twitter.netlify.app/",
     title: "NCR Twitter",
     description:
@@ -58,7 +80,7 @@ const data = [
     link: "https://github.com/NithinChowdaryRavuri/facial_expression_recognition",
     title: "Facial Expression recognition model",
     description:
-      "Beast Morph, a dynamic web application that offers personalized workout routines curated by advanced algorithms.",
+      "Designed and trained a highly efficient CNN-based facial expression recognition model using Python and OpenCV.",
     tags: ["CNN", "OpenCV", "Python"],
     image: ["/CNN/1.png"],
   },
