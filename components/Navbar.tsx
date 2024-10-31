@@ -16,7 +16,7 @@ const Navbar = () => {
       </div>
       <div className="flex items-center justify-end md:col-span-3 col-span-6">
         <Button className="flex bg-blue-600" asChild>
-          <a href="mailto:ravurinithinchowdary@gmail.com">Contact Me</a>
+          <a href="mailto:nithinravuri1@gmail.com">Contact Me</a>
         </Button>
       </div>
     </nav>
