@@ -10,9 +10,12 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "NCR Portfolio",
+  title: "Nithin Chowdary Ravuri | Software Development Engineer",
   description:
-    "Hi! I'm Nithin Chowdary Ravuri, a software developer. I love building full stack applications.",
+    "Portfolio of Nithin Chowdary Ravuri, a Software Development Engineer building polished web products with modern frontend and backend tooling.",
+  icons: {
+    icon: "/NCR.png",
+  },
 };
 
 export default function RootLayout({
@@ -21,16 +24,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <head>
-        <link rel="icon" href="/NCR.png" />
-        <link
-          rel="stylesheet"
-          type="text/css"
-          href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
-        />
-      </head>
-      <body className={poppins.className}>
+    <html lang="en" className="scroll-smooth">
+      <body
+        className={`${poppins.className} min-h-screen bg-background text-foreground antialiased`}
+      >
         <Navbar />
         {children}
         <Footer />
